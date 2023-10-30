@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    font-family: 'Slabo 27px', serif;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #11a6ec;
+    color: #ffffff;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+header nav li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header nav li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container img {
+    height: 300px;
+    margin: 20px 2px;
+}
+
+section {
+    background-color: #dfeeff;
+}
+
+section .container h2 {
+    font-family: 'Slabo 27px', serif;
+}
+
+section .container p {
+    margin: 25px 0;
+    font-family: 'Slabo 27px', serif;
+}
+
+section .container a {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #737a7b;
+    padding: 8px;
+    font-weight: bold;
+    font-family: 'Slabo 27px', serif;
+    letter-spacing: 1px;
+}
+
+section .container a:hover {
+    text-decoration: underline;
+}
+
+#contatos img {
+    height: 50px;
+    margin-right: 8px;
+    margin-bottom: 20px;
+}
+
+section .redes-sociais li {
+    margin-left: 335px;
+    display: inline;
+}
+
+section .redes-sociais h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section .redes-sociais li a {
+    background-color: none;
+    text-decoration: none;
+}
+
+footer {
+    padding: 16px 0;
+    background-color: #737a7b;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+footer .container p {
+    display: inline;
+    margin-left: 200px;
+}
+
+
